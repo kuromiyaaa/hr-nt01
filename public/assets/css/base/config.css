@@ -1,0 +1,26 @@
+:root {
+  /* color
+ ============================ */
+  --color__txt: #2A2C2F;
+  --color__main: #2A2C2F;
+  --color__kiiro: #FDFAF5;
+ --color__ki:#F7E455;
+  --color__gray: #ecedf0;
+  --color__lightgray: #f1f1f2;
+  --color__bluegray: rgb(221, 223, 232, 0.9);
+  --color__ao: #5c98c9;
+
+  --container__width-px: 1200px;
+  --container__width-percentage: 90%;
+  --container__width-percentage--sp: 95%;
+  /* font-family
+ ============================ */
+  --font-family__base:
+  "Noto Sans JP", sans-serif;
+  --font-family__system:
+  -apple-system, blinkMacSystemFont, "Helvetica Neue",
+    Helvetica, sans-serif;
+  --font-family__gosic: sans-serif;
+  --font-family__mincho:
+  "Noto Serif JP", serif;
+}

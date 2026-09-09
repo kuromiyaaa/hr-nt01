@@ -1,0 +1,973 @@
+
+.cb {
+    position: relative;
+}
+
+/* cb-header
+============================ */
+.cb-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #000;
+}
+
+.cb-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.cb-header__logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.cb-header__logo {
+  width: auto;
+  max-width: 217px;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.cb-header__logo a {
+  display: block;
+  line-height: 0;
+}
+
+.cb-header__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* c-form
+============================ */
+.c_form {
+    background-color: #eef8ff;
+    padding: 2rem 0;
+}
+
+.c-form__inner {
+    max-width: 600px;
+    width: 93%;
+    margin: auto;
+}
+
+.c-form__head {
+    margin-bottom: 1.25rem;
+}
+
+.c-form__ttl {
+    color: #000;
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.c-form__sales-link {
+    display: inline-block;
+    color: #1047ff;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+.c-form__sales-link:hover {
+    opacity: 0.8;
+}
+
+/*　共通フォーム CSSコード  */
+.hubspot_wrap {
+    padding: 3vw;
+}
+
+.hbspt-form {
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 1.0980966325vw;
+    padding: 5vw 5vw 3vw;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.hbspt-form {
+    border-radius: 8px;
+    border-radius: 0.5rem;
+    padding: 5vw 4.3vw 0.13vw;
+    width: 100%;
+}
+
+.hbspt-form .inputs-list {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    line-height: 2;
+    margin-top: 9.6px;
+    margin-top: 0.6rem;
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+.hbspt-form .form-columns-0, .hbspt-form .form-columns-1, .hbspt-form .form-columns-2 {
+    max-width: 100%;
+    margin-bottom: 2.2vw;
+}
+
+.hbspt-form .form-columns-0, .hbspt-form .form-columns-1, .hbspt-form .form-columns-2 {
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+.hbspt-form .form-columns-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hbspt-form .form-columns-2 .hs-form-field {
+    max-width: 48%;
+    float: none !important;
+}
+
+.hbspt-form .hs-form-required {
+    position: relative;
+    margin-left: 0.2vw;
+}
+
+.hbspt-form .hs-form-required {
+    margin-left: 0.65vw;
+}
+
+.hbspt-form .hs-form-required:after {
+    font-weight: bold;
+    content: "必須";
+    display: block;
+    width: 2.4vw;
+    line-height: 1;
+    letter-spacing: 0;
+    padding: 0.2vw;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #e8631b;
+    color: #fff;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+
+.hbspt-form .hs-form-required:after {
+    font-size: 11.2px;
+    font-size: 0.7rem;
+    width: 2.5em;
+    padding: 0.4vw 0 0.5vw;
+}
+
+.hbspt-form .hs-form-required:nth-of-type(1):after {
+    display: none;
+}
+
+.hbspt-form .hs-recaptcha .grecaptcha-badge {
+    margin: 2.196193265vw auto;
+}
+
+.hbspt-form .hs-recaptcha .grecaptcha-badge {
+    margin: 5.2083333333vw auto;
+}
+
+.hbspt-form .hs-fieldtype-textarea, .hbspt-form .hs-fieldtype-text, .hbspt-form .hs-fieldtype-phonenumber, .hbspt-form .hs-fieldtype-select {
+    overflow: hidden;
+}
+
+.hbspt-form .hs-fieldtype-textarea > label, .hbspt-form .hs-fieldtype-text > label, .hbspt-form .hs-fieldtype-phonenumber > label, .hbspt-form .hs-fieldtype-select > label {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-weight: bold;
+    margin-bottom: 0.7320644217vw;
+    display: block;
+}
+
+.hbspt-form .hs-fieldtype-textarea > label, .hbspt-form .hs-fieldtype-text > label, .hbspt-form .hs-fieldtype-phonenumber > label, .hbspt-form .hs-fieldtype-select > label {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.hbspt-form .hs-fieldtype-textarea .input, .hbspt-form .hs-fieldtype-text .input, .hbspt-form .hs-fieldtype-phonenumber .input, .hbspt-form .hs-fieldtype-select .input {
+    margin: 0 !important;
+}
+
+.hbspt-form .hs-fieldtype-textarea input[type="text"], .hbspt-form .hs-fieldtype-textarea input[type="tel"], .hbspt-form .hs-fieldtype-textarea input[type="email"], .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text input[type="text"], .hbspt-form .hs-fieldtype-text input[type="tel"], .hbspt-form .hs-fieldtype-text input[type="email"], .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber input[type="text"], .hbspt-form .hs-fieldtype-phonenumber input[type="tel"], .hbspt-form .hs-fieldtype-phonenumber input[type="email"], .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select input[type="text"], .hbspt-form .hs-fieldtype-select input[type="tel"], .hbspt-form .hs-fieldtype-select input[type="email"], .hbspt-form .hs-fieldtype-select textarea, .hbspt-form .hs-fieldtype-select select {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #000;
+    padding: 0.7vw 1.5vw;
+    box-sizing: border-box;
+    width: 100% !important;
+    border-radius: 0.4vw;
+    border: 1px solid #707070;
+    border: 0.0625rem solid #707070;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.hbspt-form .hs-fieldtype-textarea input[type="text"]:focus, .hbspt-form .hs-fieldtype-textarea input[type="tel"]:focus, .hbspt-form .hs-fieldtype-textarea input[type="email"]:focus, .hbspt-form .hs-fieldtype-textarea textarea:focus, .hbspt-form .hs-fieldtype-textarea select:focus, .hbspt-form .hs-fieldtype-text input[type="text"]:focus, .hbspt-form .hs-fieldtype-text input[type="tel"]:focus, .hbspt-form .hs-fieldtype-text input[type="email"]:focus, .hbspt-form .hs-fieldtype-text textarea:focus, .hbspt-form .hs-fieldtype-text select:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="text"]:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="tel"]:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="email"]:focus, .hbspt-form .hs-fieldtype-phonenumber textarea:focus, .hbspt-form .hs-fieldtype-phonenumber select:focus, .hbspt-form .hs-fieldtype-select input[type="text"]:focus, .hbspt-form .hs-fieldtype-select input[type="tel"]:focus, .hbspt-form .hs-fieldtype-select input[type="email"]:focus, .hbspt-form .hs-fieldtype-select textarea:focus, .hbspt-form .hs-fieldtype-select select:focus {
+    outline: none;
+}
+
+.hbspt-form .hs-fieldtype-textarea input[type="text"], .hbspt-form .hs-fieldtype-textarea input[type="tel"], .hbspt-form .hs-fieldtype-textarea input[type="email"], .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text input[type="text"], .hbspt-form .hs-fieldtype-text input[type="tel"], .hbspt-form .hs-fieldtype-text input[type="email"], .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber input[type="text"], .hbspt-form .hs-fieldtype-phonenumber input[type="tel"], .hbspt-form .hs-fieldtype-phonenumber input[type="email"], .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select input[type="text"], .hbspt-form .hs-fieldtype-select input[type="tel"], .hbspt-form .hs-fieldtype-select input[type="email"], .hbspt-form .hs-fieldtype-select textarea, .hbspt-form .hs-fieldtype-select select {
+    border-radius: 0.65vw;
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 11.2px 12.8px;
+    padding: 0.7rem 0.8rem;
+    border: 2px solid #c1c1c1;
+    border: 0.125rem solid #c1c1c1;
+}
+
+.hbspt-form .hs-fieldtype-textarea input[type="text"].error, .hbspt-form .hs-fieldtype-textarea input[type="tel"].error, .hbspt-form .hs-fieldtype-textarea input[type="email"].error, .hbspt-form .hs-fieldtype-textarea textarea.error, .hbspt-form .hs-fieldtype-textarea select.error, .hbspt-form .hs-fieldtype-text input[type="text"].error, .hbspt-form .hs-fieldtype-text input[type="tel"].error, .hbspt-form .hs-fieldtype-text input[type="email"].error, .hbspt-form .hs-fieldtype-text textarea.error, .hbspt-form .hs-fieldtype-text select.error, .hbspt-form .hs-fieldtype-phonenumber input[type="text"].error, .hbspt-form .hs-fieldtype-phonenumber input[type="tel"].error, .hbspt-form .hs-fieldtype-phonenumber input[type="email"].error, .hbspt-form .hs-fieldtype-phonenumber textarea.error, .hbspt-form .hs-fieldtype-phonenumber select.error, .hbspt-form .hs-fieldtype-select input[type="text"].error, .hbspt-form .hs-fieldtype-select input[type="tel"].error, .hbspt-form .hs-fieldtype-select input[type="email"].error, .hbspt-form .hs-fieldtype-select textarea.error, .hbspt-form .hs-fieldtype-select select.error {
+    background-color: #fff2f2;
+}
+
+.hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-select textarea {
+    height: 13.17715959vw;
+    resize: vertical;
+}
+
+.hbspt-form .hs-fieldtype-select select {
+}
+
+.hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select select {
+    background: url(../../img/ico_select.png) no-repeat center right 2.6vw/2.5vw auto;
+    color: #d7d7d7;
+}
+
+.hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-select textarea {
+    height: 31.25vw;
+}
+
+.hbspt-form .hs-error-msgs {
+    color: #e83d1b;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-top: 0.4vw;
+}
+
+.hbspt-form .hs-error-msgs {
+    font-size: 11.2px;
+    font-size: 0.7rem;
+    margin-top: 0.65vw;
+}
+
+.hbspt-form .hs-fieldtype-booleancheckbox {
+    text-align: center;
+}
+
+.hbspt-form .hs-fieldtype-booleancheckbox {
+    font-size: 13.6px;
+    font-size: 0.85rem;
+    width: 72vw;
+    margin: 0 auto;
+}
+
+.hbspt-form .hs-fieldtype-booleancheckbox a {
+    border-bottom: 1px solid;
+    border-bottom: 0.0625rem solid;
+    color: black;
+}
+
+.hbspt-form .hs-fieldtype-booleancheckbox input[type="checkbox"] {
+    transform: scale(1.4);
+    margin-right: 1.3vw;
+    outline: none;
+}
+
+.hbspt-form .hs_submit {
+    margin-bottom: 2.9vw;
+}
+
+.hbspt-form .hs_submit {
+    margin-bottom: 5vw;
+}
+
+.hbspt-form .hs_submit input[type="submit"] {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    width: 27vw;
+    height: 5.5vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-top: 2.5rem;
+    background: #fe6507;
+    border-radius: 5.49vw;
+    color: #fff;
+    border: 2px solid #ffffff;
+    border: 0.125rem solid #ffffff;
+    display: grid;
+    place-content: center;
+    transition: background 0.5s;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: 0.5s ease opacity;
+}
+
+.hbspt-form .hs_submit input[type="submit"] {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    width: 90%;
+    padding-top: 16px;
+    padding-top: 1rem;
+    padding-bottom: 48px;
+    padding-bottom: 3rem;
+    border-radius: 13vw;
+    letter-spacing: 3.2px;
+    letter-spacing: 0.2rem;
+}
+
+.hbspt-form .hs_submit input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.actions {
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+}
+
+
+/* cb-contact（【HR】フォームデザイン）
+============================ */
+.cb-contact {
+    background-color: #fafafa;
+    padding: 2.5rem 0 4rem;
+}
+
+.cb-contact__inner {
+    width: 92%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.cb-contact__lead {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.cb-contact__ttl {
+    color: #15946b;
+    font-size: clamp(1.5rem, 5.4vw, 2.625rem);
+    font-weight: 700;
+    line-height: 1.64;
+    letter-spacing: 0.02em;
+    margin-bottom: 2.25rem;
+}
+
+.cb-contact__ttl::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin-top: 1.75rem;
+    background-color: #000;
+}
+
+.cb-contact__list {
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.cb-contact__list li {
+    position: relative;
+    padding-left: 2.2rem;
+    margin-bottom: 0.25rem;
+    color: #000;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    list-style: none;
+}
+
+.cb-contact__list li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0.42em;
+    width: 23px;
+    height: 23px;
+    background: url(../../img/check.svg) no-repeat center / contain;
+}
+
+.cb-contact__gold {
+    margin-bottom: 1.2rem;
+}
+
+.cb-contact__gold img {
+    width: 100%;
+    max-width: 514px;
+    height: auto;
+}
+
+.cb-contact__note {
+    color: #000;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.cb-contact__offer {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 0 1.35rem;
+    padding: 0.55rem 0.7rem;
+    background-color: #000;
+    color: #fff;
+    font-size: min(1.2rem, 3.5vw);
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    overflow-wrap: anywhere;
+}
+
+.cb-contact__lead-txt {
+    color: #000;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    margin-bottom: 1.25rem;
+}
+
+.cb-contact__lead-txt--sub {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.cb-contact .c_form {
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+.cb-contact .c-form__inner {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.25rem 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.cb-contact .c-form__head {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.cb-contact .hbspt-form {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    /* cb-header
+============================ */
+    .cb-header {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #000;
+    }
+
+    .cb-header__inner {
+        max-width: 1680px;
+        margin: 0 auto;
+        padding: 0.45rem 2.8125rem;
+        height: auto;
+        min-height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cb-header__logo-wrap {
+        flex-shrink: 0;
+    }
+
+    .cb-header__logo {
+        width: auto;
+        max-width: 217px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    /* c-form
+============================ */
+    .c_form {
+        padding: 3rem 0 2.8rem;
+    }
+
+    .c-form__inner {
+        max-width: 900px;
+    }
+
+    /*　共通フォーム CSSコード  */
+    .hubspot_wrap {
+        padding: 3vw;
+    }
+
+    .hbspt-form {
+        background: #fff;
+        box-sizing: border-box;
+        border-radius: 1.0980966325vw;
+        padding: 4vw 4vw 1vw;
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 90%;
+        box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    }
+
+    .hbspt-form {
+        border-radius: 16px;
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    .hbspt-form .inputs-list {
+    }
+
+    .hbspt-form .form-columns-0, .hbspt-form .form-columns-1, .hbspt-form .form-columns-2 {
+    }
+
+    .hbspt-form .form-columns-0, .hbspt-form .form-columns-1, .hbspt-form .form-columns-2 {
+    }
+
+    .hbspt-form .form-columns-2 {
+    }
+
+    .hbspt-form .form-columns-2 .hs-form-field {
+    }
+
+    .hbspt-form .hs-form-required {
+    }
+
+    .hbspt-form .hs-form-required {
+    }
+
+    .hbspt-form .hs-form-required:after {
+        font-weight: bold;
+        content: "必須";
+        display: block;
+        width: 2.4vw;
+        line-height: 1;
+        letter-spacing: 0;
+        padding: 0.2vw;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background: #e8631b;
+        color: #fff;
+        font-size: 15px;
+        font-size: 0.9375rem;
+        text-align: center;
+    }
+
+    .hbspt-form .hs-form-required:after {
+        font-size: 11.2px;
+        font-size: 0.7rem;
+        width: 2.5em;
+        padding: 0.2vw 0 0.3vw;
+        border-radius: 0.1rem;
+    }
+
+    .hbspt-form .hs-form-required:nth-of-type(1):after {
+    }
+
+    .hbspt-form .hs-recaptcha .grecaptcha-badge {
+    }
+
+    .hbspt-form .hs-recaptcha .grecaptcha-badge {
+        margin: 32px auto;
+        margin: 2rem auto;
+    }
+
+    .hbspt-form .hs-fieldtype-textarea, .hbspt-form .hs-fieldtype-text, .hbspt-form .hs-fieldtype-phonenumber, .hbspt-form .hs-fieldtype-select {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea > label, .hbspt-form .hs-fieldtype-text > label, .hbspt-form .hs-fieldtype-phonenumber > label, .hbspt-form .hs-fieldtype-select > label {
+        font-size: 21px;
+        font-size: 1.3125rem;
+        font-weight: bold;
+        margin-bottom: 0.7vw;
+        display: block;
+    }
+
+    .hbspt-form .hs-fieldtype-textarea > label, .hbspt-form .hs-fieldtype-text > label, .hbspt-form .hs-fieldtype-phonenumber > label, .hbspt-form .hs-fieldtype-select > label {
+        font-size: 19.2px;
+        font-size: 1.2rem;
+    }
+
+    .hbspt-form .hs-fieldtype-textarea .input, .hbspt-form .hs-fieldtype-text .input, .hbspt-form .hs-fieldtype-phonenumber .input, .hbspt-form .hs-fieldtype-select .input {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea input[type="text"], .hbspt-form .hs-fieldtype-textarea input[type="tel"], .hbspt-form .hs-fieldtype-textarea input[type="email"], .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text input[type="text"], .hbspt-form .hs-fieldtype-text input[type="tel"], .hbspt-form .hs-fieldtype-text input[type="email"], .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber input[type="text"], .hbspt-form .hs-fieldtype-phonenumber input[type="tel"], .hbspt-form .hs-fieldtype-phonenumber input[type="email"], .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select input[type="text"], .hbspt-form .hs-fieldtype-select input[type="tel"], .hbspt-form .hs-fieldtype-select input[type="email"], .hbspt-form .hs-fieldtype-select textarea, .hbspt-form .hs-fieldtype-select select {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea input[type="text"]:focus, .hbspt-form .hs-fieldtype-textarea input[type="tel"]:focus, .hbspt-form .hs-fieldtype-textarea input[type="email"]:focus, .hbspt-form .hs-fieldtype-textarea textarea:focus, .hbspt-form .hs-fieldtype-textarea select:focus, .hbspt-form .hs-fieldtype-text input[type="text"]:focus, .hbspt-form .hs-fieldtype-text input[type="tel"]:focus, .hbspt-form .hs-fieldtype-text input[type="email"]:focus, .hbspt-form .hs-fieldtype-text textarea:focus, .hbspt-form .hs-fieldtype-text select:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="text"]:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="tel"]:focus, .hbspt-form .hs-fieldtype-phonenumber input[type="email"]:focus, .hbspt-form .hs-fieldtype-phonenumber textarea:focus, .hbspt-form .hs-fieldtype-phonenumber select:focus, .hbspt-form .hs-fieldtype-select input[type="text"]:focus, .hbspt-form .hs-fieldtype-select input[type="tel"]:focus, .hbspt-form .hs-fieldtype-select input[type="email"]:focus, .hbspt-form .hs-fieldtype-select textarea:focus, .hbspt-form .hs-fieldtype-select select:focus {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea input[type="text"], .hbspt-form .hs-fieldtype-textarea input[type="tel"], .hbspt-form .hs-fieldtype-textarea input[type="email"], .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text input[type="text"], .hbspt-form .hs-fieldtype-text input[type="tel"], .hbspt-form .hs-fieldtype-text input[type="email"], .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber input[type="text"], .hbspt-form .hs-fieldtype-phonenumber input[type="tel"], .hbspt-form .hs-fieldtype-phonenumber input[type="email"], .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select input[type="text"], .hbspt-form .hs-fieldtype-select input[type="tel"], .hbspt-form .hs-fieldtype-select input[type="email"], .hbspt-form .hs-fieldtype-select textarea, .hbspt-form .hs-fieldtype-select select {
+        padding: 16px;
+        padding: 1rem;
+    }
+
+    .hbspt-form .hs-fieldtype-textarea input[type="text"].error, .hbspt-form .hs-fieldtype-textarea input[type="tel"].error, .hbspt-form .hs-fieldtype-textarea input[type="email"].error, .hbspt-form .hs-fieldtype-textarea textarea.error, .hbspt-form .hs-fieldtype-textarea select.error, .hbspt-form .hs-fieldtype-text input[type="text"].error, .hbspt-form .hs-fieldtype-text input[type="tel"].error, .hbspt-form .hs-fieldtype-text input[type="email"].error, .hbspt-form .hs-fieldtype-text textarea.error, .hbspt-form .hs-fieldtype-text select.error, .hbspt-form .hs-fieldtype-phonenumber input[type="text"].error, .hbspt-form .hs-fieldtype-phonenumber input[type="tel"].error, .hbspt-form .hs-fieldtype-phonenumber input[type="email"].error, .hbspt-form .hs-fieldtype-phonenumber textarea.error, .hbspt-form .hs-fieldtype-phonenumber select.error, .hbspt-form .hs-fieldtype-select input[type="text"].error, .hbspt-form .hs-fieldtype-select input[type="tel"].error, .hbspt-form .hs-fieldtype-select input[type="email"].error, .hbspt-form .hs-fieldtype-select textarea.error, .hbspt-form .hs-fieldtype-select select.error {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-select textarea {
+    }
+
+    .hbspt-form .hs-fieldtype-select select {
+    }
+
+    .hbspt-form .hs-fieldtype-textarea select, .hbspt-form .hs-fieldtype-text select, .hbspt-form .hs-fieldtype-phonenumber select, .hbspt-form .hs-fieldtype-select select {
+        background: url(../../img/ico_select.png) no-repeat center right 2vw / 1vw auto;
+    }
+
+    .hbspt-form .hs-fieldtype-textarea textarea, .hbspt-form .hs-fieldtype-text textarea, .hbspt-form .hs-fieldtype-phonenumber textarea, .hbspt-form .hs-fieldtype-select textarea {
+    }
+
+    .hbspt-form .hs-error-msgs {
+        color: #e83d1b;
+        font-size: 14.4px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 0.4vw;
+    }
+
+    .hbspt-form .hs-error-msgs {
+    }
+
+    .hbspt-form .hs-fieldtype-booleancheckbox {
+    }
+
+    .hbspt-form .hs-fieldtype-booleancheckbox {
+        font-size: 14.4px;
+        font-size: 0.9rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 16px;
+        margin-top: 1rem;
+    }
+
+    .hbspt-form .hs-fieldtype-booleancheckbox a {
+    }
+
+    .hbspt-form .hs-fieldtype-booleancheckbox input[type="checkbox"] {
+    }
+
+    .hbspt-form .hs_submit {
+    }
+
+    .hbspt-form .hs_submit {
+    }
+
+    .hbspt-form .hs_submit input[type="submit"] {
+        font-size: 21px;
+        font-size: 1.3125rem;
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 700;
+        width: 27vw;
+        height: 5.5vw;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-top: 2.5rem;
+        border-radius: 5.49vw;
+        color: #fff;
+        display: grid;
+        place-content: center;
+        transition: background 0.5s;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: 0.5s ease opacity;
+    }
+
+    #label-biz_________cba01_02_-810da3e8-399c-4382-b132-883a6b015c3c {
+        font-size: 19.2px;
+        font-size: 1.2rem;
+    }
+
+    .hbspt-form .inputs-list {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 2;
+        margin-top: 9.6px;
+        margin-top: 0.6rem;
+    }
+
+    .hbspt-form .hs_submit input[type="submit"] {
+        font-size: 20.8px;
+        font-size: 1.3rem;
+        width: 60%;
+        border-radius: 13vw;
+        height: 32px;
+        height: 2rem;
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+        box-shadow: 0 0 0.625rem rgb(0 0 0 / 10%);
+    }
+
+    .hbspt-form .hs_submit input[type="submit"]:hover {
+    }
+
+    .actions {
+    }
+
+
+
+    .cb-contact {
+        padding: 7.15rem 0 8rem;
+    }
+
+    .cb-contact__ttl {
+        font-size: 2.5rem;
+        line-height: 65px;
+        margin-bottom: 2.35rem;
+    }
+
+    .cb-contact__ttl::after {
+        margin-top: 1.85rem;
+    }
+
+    .cb-contact__list li {
+        font-size: 1.09375rem;
+        line-height: 33px;
+    }
+
+    .cb-contact__offer {
+        padding: 0.45rem 0.9rem;
+        letter-spacing: 0.06em;
+    }
+
+    .cb-contact__lead-txt {
+        font-size: 0.9375rem;
+        line-height: 1.87;
+    }
+
+    .cb-contact .c-form__inner {
+        border-radius: 1rem;
+        padding: 2rem 2rem 3rem;
+    }
+
+    .cb-contact .hbspt-form {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .cb-contact__inner {
+        display: grid;
+        grid-template-columns: minmax(0, 550px) minmax(0, 727px);
+        grid-template-rows: auto auto;
+        align-items: start;
+        justify-content: space-between;
+        column-gap: 4.8rem;
+        row-gap: 1.25rem;
+    }
+
+    .cb-contact__lead {
+        grid-column: 1;
+        grid-row: 1;
+        width: auto;
+        max-width: 550px;
+        min-width: 0;
+    }
+
+    .cb-contact .c_form {
+        grid-column: 2;
+        grid-row: 1 / -1;
+        width: auto;
+        min-width: 0;
+        align-self: start;
+    }
+
+    .cb-contact__note {
+        grid-column: 1;
+        grid-row: 2;
+        max-width: 550px;
+        min-width: 0;
+    }
+}
+
+
+/* cb-thanks
+============================ */
+.cb-thanks {
+    background-color: #fafafa;
+    padding: 4rem 0 6rem;
+    text-align: center;
+}
+
+.cb-thanks__inner {
+    width: 92%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.cb-thanks__status {
+    color: #535353;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.15rem;
+}
+
+.cb-thanks__ttl {
+    color: #15946b;
+    font-size: min(4.6875rem, 14vw);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-bottom: 2rem;
+}
+
+.cb-thanks__ttl::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 1.35rem auto 0;
+    background-color: #000;
+}
+
+.cb-thanks__txt {
+    color: #000;
+    font-size: min(1.125rem, 3.8vw);
+    font-weight: 700;
+    line-height: 1.85;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.cb-thanks__cta {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.85rem;
+}
+
+.cb-thanks__badge {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: inline-block;
+    padding: 0.2rem 0.9rem;
+    background-color: #ffe700;
+    color: #000;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.4;
+    white-space: nowrap;
+    border-radius: 15.5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.cb-thanks__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 16.5rem;
+    width: min(20.7rem, 88vw);
+    height: 4.06rem;
+    padding: 1.1rem 1.5rem 0.7rem;
+    background-color: #e95244;
+    color: #fff;
+    font-size: min(1.25rem, 4.2vw);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 2.03rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cb-thanks__btn:hover {
+    opacity: 0.85;
+}
+
+@media only screen and (min-width: 768px) {
+    .cb-thanks {
+        padding: 7rem 0 10rem;
+    }
+
+    .cb-thanks__status {
+        font-size: 1.25rem;
+    }
+
+    .cb-thanks__ttl {
+        font-size: 4.6875rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .cb-thanks__txt {
+        font-size: 1.125rem;
+        line-height: 33px;
+        margin-bottom: 3.2rem;
+    }
+
+    .cb-thanks__badge {
+        font-size: 0.9375rem;
+        padding: 0.15rem 1.05rem;
+    }
+
+    .cb-thanks__btn {
+        width: 20.6875rem;
+        height: 4.0625rem;
+        font-size: 1.25rem;
+        padding: 1.15rem 1.5rem 0.65rem;
+    }
+}
