@@ -437,18 +437,27 @@
 }
 
 .cb-contact__offer {
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
+    width: 100%;
     max-width: 100%;
     margin: 0 0 1.35rem;
-    padding: 0.55rem 0.7rem;
+    padding: 0.7rem 1.1rem;
+    border-radius: 9999px;
     background-color: #00563A;
     color: #fff;
-    font-size: min(1.2rem, 3.5vw);
+    font-size: clamp(0.6875rem, 3.15vw, 0.9375rem);
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.45;
     letter-spacing: 0.02em;
+    text-align: center;
     overflow-wrap: anywhere;
+}
+
+.cb-contact__offer-price {
+    font-size: 1.35em;
+    font-weight: 800;
+    letter-spacing: 0.01em;
 }
 
 .cb-contact__lead-txt {
@@ -463,6 +472,11 @@
 .cb-contact__lead-txt--head {
     margin-top: -0.75rem;
     margin-bottom: 1.75rem;
+}
+
+.cb-contact__lead-brand {
+    color: #00563A;
+    font-weight: 700;
 }
 
 .cb-contact__lead-txt--sub {
@@ -787,8 +801,9 @@
     }
 
     .cb-contact__offer {
-        padding: 0.45rem 0.9rem;
-        letter-spacing: 0.06em;
+        padding: 0.85rem 1.4rem;
+        font-size: 0.9375rem;
+        letter-spacing: 0.04em;
     }
 
     .cb-contact__lead-txt {
