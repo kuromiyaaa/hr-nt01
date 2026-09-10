@@ -442,7 +442,7 @@
     max-width: 100%;
     margin: 0 0 1.35rem;
     padding: 0.55rem 0.7rem;
-    background-color: #000;
+    background-color: #00563A;
     color: #fff;
     font-size: min(1.2rem, 3.5vw);
     font-weight: 700;
@@ -458,6 +458,11 @@
     line-height: 1.85;
     letter-spacing: 0.06em;
     margin-bottom: 1.25rem;
+}
+
+.cb-contact__lead-txt--head {
+    margin-top: -0.75rem;
+    margin-bottom: 1.75rem;
 }
 
 .cb-contact__lead-txt--sub {
