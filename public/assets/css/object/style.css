@@ -443,7 +443,6 @@
     max-width: 100%;
     margin: 0 0 1.35rem;
     padding: 0.7rem 1.1rem;
-    border-radius: 9999px;
     background-color: #00563A;
     color: #fff;
     font-size: clamp(0.6875rem, 3.15vw, 0.9375rem);
@@ -458,6 +457,11 @@
     font-size: 1.35em;
     font-weight: 800;
     letter-spacing: 0.01em;
+}
+
+.cb-contact__offer-note {
+    color: rgba(255, 255, 255, 0.62);
+    font-weight: 600;
 }
 
 .cb-contact__lead-txt {
